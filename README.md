@@ -4,15 +4,19 @@ A modern, highly customizable developer portfolio website built with vanilla HTM
 
 This portfolio showcases projects, skills, achievements, and social profiles through a fully responsive interface with dynamic themes, typography customization, project filtering, modal previews, and persistent user preferences.
 
----
+<!-- ---
 
 ![Portfolio Preview](assets/screenshots/profile.png)
 
 ---
 
-![Portfolio Preview](assets/screenshots/profile.png)
+![Portfolio Preview](assets/screenshots/projects.png)
 
----
+--- -->
+<p align="center">
+  <img src="assets/screenshots/profile.png" alt="Portfolio Preview" width="48%">
+  <img src="assets/screenshots/projects.png" alt="Portfolio Preview" width="48%">
+</p>
 
 ## ✨ Features
 
