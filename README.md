@@ -10,6 +10,10 @@ This portfolio showcases projects, skills, achievements, and social profiles thr
 
 ---
 
+![Portfolio Preview](assets/screenshots/profile.png)
+
+---
+
 ## ✨ Features
 
 ### Core Features
