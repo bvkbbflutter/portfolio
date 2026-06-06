@@ -1,0 +1,689 @@
+{
+    "profile": {
+        "name": "Vinay Kumar Bantubilli",
+        "title": "Full-Stack Developer & UI/UX Designer",
+        "bio": "Passionate Flutter developer with experience building cross-platform apps for Android, iOS, and Web. Skilled in creating elegant, high-performance applications that solve real-world problems.\n<br>Familiar with a wide range of technologies including Angular, Material UI, PrimeNG, Bootstrap, HTML, CSS, JavaScript, MongoDB, PostgreSQL, Node.js, Express, Firebase, Supabase, and JSON Server.\n<br>I love turning complex ideas into smooth, user-friendly experiences.",
+        "image": "assets/profile_img.jpg",
+        "socialLinks": [
+            {
+                "platform": "GitHub",
+                "url": "https://github.com/bvkbb1",
+                "icon": "fab fa-github"
+            },
+            {
+                "platform": "LinkedIn",
+                "url": "https://linkedin.com/in/vinay-kumar-bantubilli",
+                "icon": "fab fa-linkedin"
+            },
+            {
+                "platform": "Email",
+                "url": "mailto:bantubillivinaykumar@gmail.com",
+                "icon": "fas fa-envelope"
+            }
+        ]
+    },
+    "projects": [
+        {
+            "title": "SplitNest",
+            "description": "An offline-first expense sharing application built with Flutter that helps roommates, friends, travel groups, and teams track expenses, simplify debts, and settle balances fairly. SplitNest supports multiple split methods, automatic Firebase synchronization, debt simplification using the Min Cash Flow algorithm, invite-based group management, reports, settlements, and a seamless offline experience powered by Hive and Firestore.",
+            "category": "flutter",
+            "image": "https://github.com/bvkbbflutter/my-images/raw/main/assets/screenshots/splitnest.png",
+            "gallery": [
+                "https://github.com/bvkbbflutter/my-images/raw/main/assets/screenshots/splitnest.png"
+            ],
+            "links": [
+                {
+                    "type": "code",
+                    "url": "https://github.com/bvkbbflutter/splitnest",
+                    "icon": "fab fa-github"
+                }
+            ],
+            "tags": [
+                "Flutter",
+                "Expense Tracker",
+                "Expense Sharing",
+                "Split Expenses",
+                "Offline First",
+                "Firebase",
+                "Cloud Firestore",
+                "Google Sign In",
+                "Hive",
+                "Riverpod",
+                "Clean Architecture",
+                "GoRouter",
+                "Freezed",
+                "FL Chart",
+                "Debt Simplification",
+                "Min Cash Flow Algorithm",
+                "Group Management",
+                "QR Code",
+                "Invite System",
+                "Reports",
+                "Settlements",
+                "Personal Finance",
+                "Money Management",
+                "Cross Platform",
+                "Mobile Development",
+                "Flutter Project"
+            ]
+        },
+        {
+            "title": "Flutter Weather App",
+            "description": "A modern weather application built with Flutter using Clean Architecture, Riverpod, Dio, Hive, and OpenWeatherMap. The app provides real-time weather updates, location-based forecasts, city search, favorites management, offline caching, connectivity monitoring, and a beautiful Dark/Light theme experience. Designed with scalability, maintainability, and production-ready architecture in mind.",
+            "category": "flutter",
+            "image": "https://raw.githubusercontent.com/bvkbbflutter/flutter_weather_app/main/assets/screenshots/weather.png",
+            "gallery": [
+                "https://raw.githubusercontent.com/bvkbbflutter/flutter_weather_app/main/assets/screenshots/weather.png"
+            ],
+            "links": [
+                {
+                    "type": "code",
+                    "url": "https://github.com/bvkbbflutter/flutter_weather_app",
+                    "icon": "fab fa-github"
+                }
+            ],
+            "tags": [
+                "Flutter",
+                "Weather App",
+                "Flutter Project",
+                "Riverpod",
+                "Clean Architecture",
+                "OpenWeatherMap",
+                "Hive",
+                "Dio",
+                "Geolocator",
+                "Geocoding",
+                "Connectivity Plus",
+                "Offline First",
+                "Dark Mode",
+                "Light Mode",
+                "Favorites",
+                "Location Based Weather",
+                "Cached Network Image",
+                "Lottie",
+                "Shimmer",
+                "Freezed",
+                "JSON Serialization",
+                "State Management",
+                "Mobile Development",
+                "Cross Platform",
+                "Open Source"
+            ]
+        },
+        {
+            "title": "Flutter Phone Field Plus",
+            "description": "A highly customizable Flutter package that provides an international phone number input field with country picker, international dialing codes, phone number validation, and flexible UI customization. Built to simplify phone number collection in Flutter applications while offering a clean developer experience and production-ready functionality across Android, iOS, Web, Windows, macOS, and Linux.",
+            "category": "flutter",
+            "image": "https://raw.githubusercontent.com/bvkbbflutter/flutter_phone_field_plus/main/assets/screenshots/flutter_phone_field.png",
+            "gallery": [
+                "https://github.com/bvkbbflutter/flutter_phone_field_plus/blob/main/assets/screenshots/country_picker.png?raw=true",
+                "https://github.com/bvkbbflutter/flutter_phone_field_plus/blob/main/assets/screenshots/success.png?raw=true",
+                "https://github.com/bvkbbflutter/flutter_phone_field_plus/blob/main/assets/screenshots/failed.png?raw=true"
+            ],
+            "links": [
+                {
+                    "type": "code",
+                    "url": "https://github.com/bvkbbflutter/flutter_phone_field_plus",
+                    "icon": "fab fa-github"
+                },
+                {
+                    "type": "package",
+                    "url": "https://pub.dev/packages/flutter_phone_field_plus",
+                    "icon": "fas fa-cube"
+                }
+            ],
+            "tags": [
+                "Flutter",
+                "Flutter Package",
+                "Phone Input",
+                "Phone Number Validation",
+                "Country Picker",
+                "International Phone Numbers",
+                "Dial Codes",
+                "Form Validation",
+                "Cross Platform",
+                "Developer Tools",
+                "Open Source",
+                "Pub.dev",
+                "Custom Widgets",
+                "UI Components",
+                "Mobile Development"
+            ]
+        },
+        {
+            "title": "Flutter Home Screen Counter Widget with Native Android Integration",
+            "description": "Developed a Flutter-based Home Screen Widget application with real-time counter synchronization between the Flutter app and Android home screen widget using the HomeWidget package. Implemented native Android widget functionality in Kotlin, including AppWidgetProvider, BroadcastReceiver, and SharedPreferences integration for background updates and persistent data storage. Enabled seamless Flutter-to-native communication, bidirectional data synchronization, widget interactions, and automatic UI updates without launching the Flutter app.",
+            "category": "flutter",
+            "image": "https://github.com/bvkbbflutter/home_screen_widget_demo/raw/main/assets/screenshots/flutter_home_screen_widget.png",
+            "links": [
+                {
+                    "type": "code",
+                    "url": "https://github.com/bvkbbflutter/home_screen_widget_demo.git",
+                    "icon": "fab fa-github"
+                }
+            ],
+            "tags": [
+                "Flutter",
+                "Dart",
+                "Android",
+                "Kotlin",
+                "Home Widget",
+                "HomeWidget Package",
+                "Android Widget",
+                "AppWidgetProvider",
+                "BroadcastReceiver",
+                "SharedPreferences",
+                "MethodChannel",
+                "Native Android",
+                "Flutter Integration",
+                "Widget Development",
+                "Counter App",
+                "State Management",
+                "ValueNotifier",
+                "Background Processing",
+                "Widget Synchronization",
+                "Mobile Development",
+                "Cross Platform",
+                "Flutter Widgets",
+                "Android Development",
+                "Real Time Updates"
+            ]
+        },
+        {
+            "title": "SecuGen Fingerprint Scanner Plugin",
+            "description": "Developed a reusable Flutter plugin for Android that integrates SecuGen biometric fingerprint devices. The plugin captures fingerprint images through the SecuGen native SDK and provides the output as Base64-encoded image data to Flutter applications. Designed for attendance systems, identity verification, healthcare, and enterprise biometric solutions.",
+            "category": "flutter",
+            "image": "https://imgs.search.brave.com/XSQvxAaTWAlLZmmfyTwkID1RM9yrx_WZUpgaVboabHo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90aWlt/Zy50aXN0YXRpYy5j/b20vZnAvMS8wMDkv/MTQzL3NlY3VnZW4t/ZmluZ2VycHJpbnQt/c2Nhbm5lci0zMDIu/anBn",
+            "links": [
+                {
+                    "type": "code",
+                    "url": "https://github.com/bvkbbflutter/secuGen_suv_plugin.git",
+                    "icon": "fab fa-github"
+                }
+            ],
+            "tags": [
+                "Flutter",
+                "Android Only",
+                "Plugin Development",
+                "SecuGen SDK",
+                "Fingerprint Capture",
+                "Biometrics",
+                "Method Channels",
+                "Hardware Device Integration",
+                "Base64",
+                "Native Android",
+                "Flutter Package",
+                "Identity Verification"
+            ]
+        },
+        {
+            "title": "Mantra Aadhaar & ABHA Authentication Integration",
+            "description": "Developed a Flutter-based Aadhaar and ABHA authentication solution integrated with Mantra biometric fingerprint devices. The application renders a custom HTML page inside a Flutter WebView to communicate with the Mantra RD Service. Fingerprint data is captured through the registered device and returned as encrypted PID/Base64 data, which can be used by authorized backend APIs for Aadhaar eKYC and ABHA verification workflows. For web deployments, RD Service SDK files are installed on the client machine, while Android devices utilize the Mantra RD Service application available through the Play Store. The solution enables secure biometric authentication and identity verification through registered biometric devices.",
+            "category": "flutter",
+            "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/biometric-device/c/6/l/0-mfs110-l1-device-biometric-device-mantra-original-imah3fvqryfgcgcz.jpeg?q=70",
+            "links": [
+                {
+                    "type": "code",
+                    "url": "https://github.com/bvkbbflutter/mantra_aadhar_auth.git",
+                    "icon": "fab fa-github"
+                }
+            ],
+            "tags": [
+                "Flutter",
+                "Android",
+                "WebView",
+                "HTML",
+                "JavaScript",
+                "Mantra Device",
+                "Mantra RD Service",
+                "Biometric Authentication",
+                "Fingerprint Scanner",
+                "Aadhaar",
+                "ABHA",
+                "eKYC",
+                "PID Data",
+                "Base64",
+                "Identity Verification",
+                "SDK Integration",
+                "Hardware Integration",
+                "API Integration",
+                "Healthcare",
+                "Government Services"
+            ]
+        },
+        {
+            "title": "MMAK - Task Management App",
+            "description": "A simple and efficient task management mobile app developed using Flutter and Firebase, deployed for clients like Katzung Pharmaceuticals and Pulse Hospitals. The app supports three user roles: Admin, Manager, and User. Admins can create users, managers, and other admins, as well as view all tasks in detail. Managers can view their own tasks and those of their team. Users can create personal tasks and assign them to coworkers or managers. MMAK is available on both Android and iOS platforms.",
+            "category": "flutter",
+            "image": "https://static.vecteezy.com/system/resources/thumbnails/019/928/528/small_2x/businesswoman-take-an-assessment-questionnaire-evaluation-online-survey-online-exam-choosing-the-right-answer-in-the-exam-photo.jpg",
+            "links": [
+                {
+                    "type": "playstore",
+                    "url": "https://play.google.com/store/apps/details?id=com.katzung.emptracking&pcampaignid=web_share",
+                    "icon": "fab fa-google-play"
+                },
+                {
+                    "type": "appstore",
+                    "url": "https://apps.apple.com/app/id6747702103",
+                    "icon": "fab fa-apple"
+                }
+            ],
+            "tags": [
+                "Flutter",
+                "Firebase",
+                "Android",
+                "iOS",
+                "Provider",
+                "Task Management",
+                "Role-based Access",
+                "Productivity",
+                "Git Hub"
+            ]
+        },
+        {
+            "title": "Flutter Insta Clone",
+            "description": "A full-featured social media mobile app developed in Flutter using Firebase as the backend. Inspired by Instagram, it includes functionality such as posting images, liking and commenting on posts, following/unfollowing users, user authentication (login, logout, change password), profile photo updates, chat, notifications, blocking/unblocking users, and real-time video calling implemented using flutter_webrtc, Dark Mode and Light Mode.",
+            "category": "flutter",
+            "image": "https://cdn.dribbble.com/users/9190175/screenshots/19123410/media/b7a0cc1e197ff948fef2b5915fa1710c.png",
+            "links": [
+                {
+                    "type": "code",
+                    "url": "https://github.com/bvkbb1/instaCloneV",
+                    "icon": "fab fa-github"
+                },
+                {
+                    "type": "demo",
+                    "url": "https://insta-clone-v-8ceba.web.app/",
+                    "icon": "fas fa-external-link-alt"
+                }
+            ],
+            "tags": [
+                "Flutter",
+                "Android",
+                "iOS",
+                "Web",
+                "Bloc",
+                "Firebase",
+                "Social Media",
+                "Real-time Chat",
+                "Video Calling",
+                "flutter_webrtc",
+                "Notifications",
+                "Authentication",
+                "Profile Management",
+                "Git Hub"
+            ]
+        },
+        {
+            "title": "Snake Game",
+            "description": "A simple sname game that the snake can move based on gestures and swallows the food.",
+            "category": "flutter",
+            "image": "https://wallpaperaccess.com/full/8552514.jpg",
+            "links": [
+                {
+                    "type": "code",
+                    "url": "https: //github.com/bvkbb1/snakeGameV",
+                    "icon": "fab fa-github"
+                }
+            ],
+            "tags": [
+                "Flutter",
+                "Android",
+                "iOS",
+                "Git Hub"
+            ]
+        },
+        {
+            "title": "Clock App",
+            "description": "A beautifully designed clock app featuring Alarm, Stopwatch, Timer, and World Clock. Built with neumorphic UI, supports system light/dark mode, and offers a clean and minimal user interface.",
+            "category": "flutter",
+            "image": "https://cdn.prod.website-files.com/6756e85854702c9f99e1ceaf/676d2a207f89aee80a4fcb11_WCM-OpenGraphIMG.jpg",
+            "links": [
+                {
+                    "type": "code",
+                    "url": "https://github.com/bvkbb1/clockAppV",
+                    "icon": "fab fa-github"
+                }
+            ],
+            "tags": [
+                "Flutter",
+                "Android",
+                "iOS",
+                "Neumorphism",
+                "Dark Mode",
+                "Clock App",
+                "GitHub"
+            ]
+        },
+        {
+            "title": "Tik Tak Toe",
+            "description": "A cross-platform Tik Tak Toe game built with Flutter featuring a neumorphic UI, responsive design for web and mobile, system light/dark mode, and animated win/draw dialogs. Supports Android, iOS, and Web with a clean and minimal interface.",
+            "category": "flutter",
+            "image": "https://i0.wp.com/logicalgamedesigner.com/wp-content/uploads/2021/12/CA15B056-1C20-4BA5-884B-96E4532CEC7D.png?resize=1024%2C1024&ssl=1",
+            "links": [
+                {
+                    "type": "code",
+                    "url": "https://github.com/bvkbb1/TikTakToee",
+                    "icon": "fab fa-github"
+                },
+                {
+                    "type": "live",
+                    "url": "https://tik-tak-toe-eccf4.web.app/",
+                    "icon": "fas fa-globe"
+                }
+            ],
+            "tags": [
+                "Flutter",
+                "Android",
+                "iOS",
+                "Web",
+                "Game",
+                "Neumorphism",
+                "Dark Mode",
+                "Open Source",
+                "GitHub"
+            ]
+        },
+        {
+            "title": "Language Translation App",
+            "description": "A lightweight mobile translation app built with Flutter and Provider. Users can enter text in their language and translate it instantly into another. It features a clean Material Design UI, language selection dropdown, and real-time translation via APIs, optimized for both Android and iOS.",
+            "category": "flutter",
+            "image": "https://play-lh.googleusercontent.com/bhnWg_pb-enbXYOgq84WE-YYJ2GK22RthhN4MIL2p_lGIBTAmcy9FaUZf9vqqfXp_A=w526-h296-rw",
+            "links": [
+                {
+                    "type": "github",
+                    "url": "https://github.com/bvkbb1/Text-Translation",
+                    "icon": "fab fa-github"
+                }
+            ],
+            "tags": [
+                "Flutter",
+                "Provider",
+                "Translation",
+                "Android",
+                "iOS",
+                "Google Translate API",
+                "Productivity",
+                "Language App"
+            ]
+        },
+        {
+            "title": "Google Play Stats Dashboard",
+            "description": "A real-time dashboard built with Flutter and Node.js to visualize Google Play app performance. It integrates Google Play Developer API + Cloud Storage for fetching reviews, installs, and country-wise stats. Features include tabular views, filters, and scalable API design.",
+            "category": "flutter",
+            "image": "https://media.geeksforgeeks.org/wp-content/uploads/20230620123153/Tabular-Presentation-of-Data-copy.webp",
+            "links": [
+                {
+                    "type": "code",
+                    "url": "https://github.com/bvkbb1/google_play_stats",
+                    "icon": "fab fa-github"
+                }
+            ],
+            "tags": [
+                "Flutter",
+                "Node.js",
+                "Express server",
+                "Google Play API",
+                "Google Cloud",
+                "App Analytics",
+                "Mobile Dashboard",
+                "Dart",
+                "Backend Integration"
+            ]
+        },
+        {
+            "title": "My Mic V - Flutter Microphone Widget",
+            "description": "A customizable Flutter microphone widget with speech-to-text functionality, glow animations, and easy integration for iOS and Android apps.",
+            "category": "flutter",
+            "image": "https://cdn-icons-png.flaticon.com/512/10024/10024079.png",
+            "links": [
+                {
+                    "type": "code",
+                    "url": "https://github.com/bvkbb1/my_mic_v",
+                    "icon": "fab fa-github"
+                },
+                {
+                    "type": "demo",
+                    "url": "https://pub.dev/packages/my_mic_v",
+                    "icon": "fas fa-external-link-alt"
+                }
+            ],
+            "tags": [
+                "Flutter",
+                "Dart",
+                "Microphone",
+                "Speech-to-Text",
+                "Widget",
+                "Animation"
+            ]
+        },
+        {
+            "title": "Real-Time Chat & Video Calling App",
+            "description": "A feature-rich real-time communication app built using Flutter, Firebase, and WebRTC. It includes seamless chat and video calling functionalities with online status, typing indicators, reactions, and camera/speaker controls. Designed for both dark and light themes with Firebase Cloud Messaging integration for instant call and message alerts.",
+            "category": "flutter",
+            "image": "https://cdn.mos.cms.futurecdn.net/QC2AE7kyGxNL8PGKdCsfS.jpg",
+            "links": [
+                {
+                    "type": "code",
+                    "url": "https://github.com/bvkbb1/bbChats.git",
+                    "icon": "fab fa-github"
+                }
+            ],
+            "tags": [
+                "Flutter",
+                "Firebase",
+                "Firestore",
+                "Firebase Auth",
+                "Firebase Cloud Messaging",
+                "WebRTC",
+                "Provider",
+                "Hive",
+                "Real-Time Chat",
+                "Video Calling",
+                "Mute/Unmute",
+                "Camera Switch",
+                "Speaker Toggle",
+                "Online Status Tracking",
+                "Typing Indicator",
+                "Message Reactions",
+                "Message Delete",
+                "Reply Messages",
+                "Push Notifications",
+                "Dark Mode",
+                "Light Mode",
+                "System Theme",
+                "Dart",
+                "Mobile App Development"
+            ]
+        },
+        {
+            "title": "Portfolio - 1",
+            "description": "Responsive portfolio website showcasing projects and skills",
+            "category": "web-apps",
+            "image": "https://adslgroup.com/wp-content/uploads/2018/07/Portfolio-ADSL-Social.png",
+            "links": [
+                {
+                    "type": "code",
+                    "url": "https://github.com/bvkbb1/portfolio",
+                    "icon": "fab fa-github"
+                },
+                {
+                    "type": "demo",
+                    "url": "https://bvkbb1.github.io/portfolio/",
+                    "icon": "fas fa-external-link-alt"
+                }
+            ],
+            "tags": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Git Hub"
+            ]
+        },
+        {
+            "title": "E-commerce Dashboard",
+            "description": "Admin dashboard for managing products, orders, and analytics with Angular",
+            "category": "angular",
+            "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop",
+            "links": [
+                {
+                    "type": "code",
+                    "url": "https://github.com/alexjohnson/ecommerce-dashboard",
+                    "icon": "fab fa-github"
+                },
+                {
+                    "type": "demo",
+                    "url": "https://ecommerce-dashboard-demo.com",
+                    "icon": "fas fa-external-link-alt"
+                }
+            ],
+            "tags": [
+                "Angular",
+                "TypeScript",
+                "Dashboard"
+            ]
+        },
+        {
+            "title": "Birthday Wish Web App",
+            "description": "Responsive Web page for wishing the birthday event",
+            "category": "web-apps",
+            "image": "https://img.freepik.com/premium-photo/wooden-ebony-happy-birthday-concept-creative-horizontal-art-poster_107173-64327.jpg?w=2000",
+            "links": [
+                {
+                    "type": "code",
+                    "url": "https://github.com/bvkbb1/Raju-Wish-1",
+                    "icon": "fab fa-github"
+                },
+                {
+                    "type": "demo",
+                    "url": "https://bvkbb1.github.io/Raju-Wish-1/",
+                    "icon": "fas fa-external-link-alt"
+                }
+            ],
+            "tags": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Git Hub"
+            ]
+        },
+        {
+            "title": "Birthday Wish Web App - 2",
+            "description": "Responsive Web page for wishing the birthday event",
+            "category": "web-apps",
+            "image": "https://st.depositphotos.com/20423458/54176/i/450/depositphotos_541766852-stock-photo-happy-birthday-concept.jpg",
+            "links": [
+                {
+                    "type": "code",
+                    "url": "https://github.com/bvkbb1/raju-wish-2",
+                    "icon": "fab fa-github"
+                },
+                {
+                    "type": "demo",
+                    "url": "https://bvkbb1.github.io/raju-wish-2/",
+                    "icon": "fas fa-external-link-alt"
+                }
+            ],
+            "tags": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Git Hub"
+            ]
+        },
+        {
+            "title": "Calculator - 1",
+            "description": "A simple calculator app",
+            "category": "web-apps",
+            "image": "https://png.pngtree.com/thumb_back/fh260/background/20230722/pngtree-3d-calculator-in-sleek-white-design-with-minimalist-background-illustrated-image_3782741.jpg",
+            "links": [
+                {
+                    "type": "code",
+                    "url": "https://github.com/bvkbb1/calculator_1",
+                    "icon": "fab fa-github"
+                },
+                {
+                    "type": "demo",
+                    "url": "https://bvkbb1.github.io/calculator_1",
+                    "icon": "fas fa-external-link-alt"
+                }
+            ],
+            "tags": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Git Hub"
+            ]
+        },
+        {
+            "title": "Calculator - 2",
+            "description": "A simple calculator app",
+            "category": "web-apps",
+            "image": "https://png.pngtree.com/thumb_back/fw800/background/20230617/pngtree-minimalist-digital-calculator-render-with-number-symbol-illustration-background-and-coins-image_3607487.jpg",
+            "links": [
+                {
+                    "type": "code",
+                    "url": "https://github.com/bvkbb1/calculator",
+                    "icon": "fab fa-github"
+                },
+                {
+                    "type": "demo",
+                    "url": "https://bvkbb1.github.io/calculator/",
+                    "icon": "fas fa-external-link-alt"
+                }
+            ],
+            "tags": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Git Hub"
+            ]
+        },
+        {
+            "title": "Text to Speech Converter",
+            "description": "A simple text to speech converter app using the java-script Speech-Synthasis",
+            "category": "web-apps",
+            "image": "https://tse3.mm.bing.net/th/id/OIP.wtcuwIdb09VDNfX7qFxcdgAAAA?rs=1&pid=ImgDetMain&o=7&rm=3",
+            "links": [
+                {
+                    "type": "code",
+                    "url": "https://github.com/bvkbb1/text-to-speech-converter",
+                    "icon": "fab fa-github"
+                },
+                {
+                    "type": "demo",
+                    "url": "https://bvkbb1.github.io/text-to-speech-converter/",
+                    "icon": "fas fa-external-link-alt"
+                }
+            ],
+            "tags": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Git Hub"
+            ]
+        }
+    ],
+    "filterCategories": [
+        {
+            "name": "All",
+            "value": "all"
+        },
+        {
+            "name": "Flutter",
+            "value": "flutter"
+        },
+        {
+            "name": "Angular",
+            "value": "angular"
+        },
+        {
+            "name": "Web Apps",
+            "value": "web-apps"
+        },
+        {
+            "name": "Social Links",
+            "value": "social-links"
+        }
+    ]
+}
