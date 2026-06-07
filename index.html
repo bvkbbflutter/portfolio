@@ -13,7 +13,15 @@
 </head>
 <body>
 
-<!-- Ambient cursor glow -->
+<!-- Page load screen -->
+<div class="page-load-overlay" id="pageLoader">
+  <div class="page-load-logo">vinay<span style="color:inherit">.</span>dev</div>
+</div>
+
+<!-- Particle canvas -->
+<canvas id="particles-canvas"></canvas>
+
+<!-- Cursor glow -->
 <div class="cursor-glow" id="cursorGlow"></div>
 
 <!-- ============================================================
@@ -22,10 +30,10 @@
 <nav class="nav" id="mainNav">
   <a href="#home" class="nav-logo">vinay<span>.</span>dev</a>
   <div class="nav-links">
-    <a href="#home" class="nav-link">Home</a>
+    <a href="#home"     class="nav-link">Home</a>
     <a href="#projects" class="nav-link">Projects</a>
-    <a href="#skills" class="nav-link">Skills</a>
-    <a href="#contact" class="nav-link">Contact</a>
+    <a href="#skills"   class="nav-link">Skills</a>
+    <a href="#contact"  class="nav-link">Contact</a>
   </div>
   <div class="nav-right">
     <button class="settings-btn" id="settingsBtn" aria-label="Open settings">
@@ -38,12 +46,12 @@
   </div>
 </nav>
 
-<!-- Mobile nav drawer -->
+<!-- Mobile drawer -->
 <div class="mobile-nav" id="mobileNav">
-  <a href="#home" class="mobile-nav-link">Home</a>
+  <a href="#home"     class="mobile-nav-link">Home</a>
   <a href="#projects" class="mobile-nav-link">Projects</a>
-  <a href="#skills" class="mobile-nav-link">Skills</a>
-  <a href="#contact" class="mobile-nav-link">Contact</a>
+  <a href="#skills"   class="mobile-nav-link">Skills</a>
+  <a href="#contact"  class="mobile-nav-link">Contact</a>
 </div>
 
 <!-- ============================================================
@@ -52,22 +60,17 @@
 <div class="settings-backdrop" id="settingsBackdrop"></div>
 <aside class="settings-panel" id="settingsPanel">
   <div class="settings-header">
-    <div class="settings-title">
-      <i class="fas fa-sliders"></i> Customize
-    </div>
+    <div class="settings-title"><i class="fas fa-sliders"></i> Customize</div>
     <button class="settings-close" id="settingsClose"><i class="fas fa-times"></i></button>
   </div>
-
   <div class="settings-section">
     <div class="settings-label">Theme</div>
     <div class="theme-grid" id="themeGrid"></div>
   </div>
-
   <div class="settings-section">
     <div class="settings-label">Font Style</div>
     <div class="font-list" id="fontList"></div>
   </div>
-
   <div class="settings-section">
     <div class="settings-label">Card Height</div>
     <div class="slider-row">
@@ -78,7 +81,7 @@
 </aside>
 
 <!-- ============================================================
-     HERO SECTION
+     HERO
      ============================================================ -->
 <section class="hero" id="home">
   <div class="orb orb-1"></div>
@@ -86,40 +89,42 @@
   <div class="orb orb-3"></div>
 
   <div class="hero-inner">
-    <!-- Avatar -->
+    <!-- Avatar with floating badges -->
     <div class="avatar-wrap">
       <div class="avatar-ring">
-        <div class="avatar-inner" id="avatarInner">
-          <!-- img or initials injected via JS -->
-        </div>
+        <div class="avatar-inner" id="avatarInner"></div>
       </div>
-      <div class="status-badge">
-        <span class="status-dot"></span> Available for work
+      <div class="avatar-badge status-badge">
+        <span class="status-dot"></span> Available
+      </div>
+      <div class="avatar-badge flutter-badge">
+        <i class="fas fa-mobile-alt"></i> Flutter Dev
+      </div>
+      <div class="avatar-badge exp-badge">
+        <i class="fas fa-star"></i> 4+ yrs
       </div>
     </div>
 
-    <!-- Content -->
+    <!-- Text content -->
     <div class="hero-content">
-      <div class="hero-eyebrow" id="heroEyebrow">Flutter Developer · Full-Stack Engineer</div>
+      <div class="hero-eyebrow" id="heroEyebrow">Flutter · Firebase · Full-Stack</div>
       <h1 class="hero-title" id="heroName">Loading…</h1>
-      <p class="hero-subtitle" id="heroTitle"></p>
+      <p class="hero-subtitle" id="heroSubtitle"></p>
       <p class="hero-bio" id="heroBio"></p>
 
       <div class="hero-stats">
-        <div class="stat"><span class="stat-num">21+</span><span class="stat-lbl">Projects</span></div>
-        <div class="stat"><span class="stat-num">4+</span><span class="stat-lbl">Years Exp</span></div>
-        <div class="stat"><span class="stat-num">3</span><span class="stat-lbl">Play Store</span></div>
-        <div class="stat"><span class="stat-num">2</span><span class="stat-lbl">npm/pub Pkgs</span></div>
+        <div class="stat"><span class="stat-num" data-count="21">0</span><span class="stat-lbl">Projects</span></div>
+        <div class="stat"><span class="stat-num" data-count="4">0</span><span class="stat-lbl">Years Exp</span></div>
+        <div class="stat"><span class="stat-num" data-count="3">0</span><span class="stat-lbl">Play Store</span></div>
+        <div class="stat"><span class="stat-num" data-count="2">0</span><span class="stat-lbl">Packages</span></div>
       </div>
 
       <div class="hero-actions">
         <a href="#projects" class="btn-primary"><i class="fas fa-folder-open"></i> View Projects</a>
-        <a href="#contact" class="btn-outline"><i class="fas fa-envelope"></i> Hire Me</a>
+        <a href="#contact"  class="btn-outline"><i class="fas fa-envelope"></i> Hire Me</a>
       </div>
 
-      <div class="social-row" id="socialRow">
-        <!-- Injected from JSON -->
-      </div>
+      <div class="social-row" id="socialRow"></div>
 
       <div class="tech-pills">
         <span class="tech-pill">Flutter</span>
@@ -138,7 +143,7 @@
 </section>
 
 <!-- ============================================================
-     SKILLS SECTION
+     SKILLS
      ============================================================ -->
 <section class="section" id="skills">
   <div class="section-inner">
@@ -146,14 +151,12 @@
       <div class="section-eyebrow">Expertise</div>
       <h2 class="section-title">Core Skills</h2>
     </div>
-    <div class="skills-grid reveal" id="skillsGrid">
-      <!-- Injected by JS -->
-    </div>
+    <div class="skills-grid stagger-children" id="skillsGrid"></div>
   </div>
 </section>
 
 <!-- ============================================================
-     PROJECTS SECTION
+     PROJECTS
      ============================================================ -->
 <section class="section" id="projects">
   <div class="section-inner">
@@ -161,69 +164,50 @@
       <div class="section-eyebrow">Portfolio</div>
       <h2 class="section-title">Featured Projects</h2>
     </div>
-
-    <!-- Filter chips -->
-    <div class="filter-row reveal" id="filterRow">
-      <!-- Injected from JSON filterCategories -->
-    </div>
-
-    <!-- Projects grid -->
-    <div class="projects-grid" id="projectsGrid">
-      <!-- Injected from JSON projects -->
-    </div>
+    <div class="filter-row reveal" id="filterRow"></div>
+    <div class="projects-grid" id="projectsGrid"></div>
   </div>
 </section>
 
 <!-- ============================================================
-     CONTACT SECTION
+     CONTACT
      ============================================================ -->
-<section class="section contact-section" id="contact">
+<section class="section" id="contact">
   <div class="section-inner">
     <div class="section-header reveal">
       <div class="section-eyebrow">Get In Touch</div>
       <h2 class="section-title">Let's Work Together</h2>
     </div>
-    <div class="contact-cards reveal" id="contactCards">
-      <!-- Injected from JSON socialLinks -->
-    </div>
+    <div class="contact-cards stagger-children" id="contactCards"></div>
   </div>
 </section>
 
-<!-- ============================================================
-     FOOTER
-     ============================================================ -->
+<!-- FOOTER -->
 <footer class="footer">
   <div class="footer-inner">
     <div class="footer-logo">vinay<span>.</span>dev</div>
-    <div class="footer-copy">&copy; <span id="currentYear"></span> Vinay Kumar Bantubilli. Built with passion.</div>
+    <div class="footer-copy">&copy; <span id="currentYear"></span> Vinay Kumar Bantubilli</div>
     <div class="footer-social" id="footerSocial"></div>
   </div>
 </footer>
 
 <!-- ============================================================
-     PROJECT MODAL (preview dialog)
+     PROJECT MODAL
      ============================================================ -->
 <div class="modal-backdrop" id="modalBackdrop">
   <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
     <div class="modal-header">
       <h2 class="modal-title" id="modalTitle"></h2>
-      <button class="modal-close" id="modalClose" aria-label="Close preview">
-        <i class="fas fa-times"></i>
-      </button>
+      <button class="modal-close" id="modalClose" aria-label="Close"><i class="fas fa-times"></i></button>
     </div>
-
     <div class="modal-img-wrap" id="modalImgWrap">
       <img class="modal-img" id="modalImg" src="" alt="" loading="lazy">
     </div>
-
     <div class="modal-body">
-      <div class="modal-meta" id="modalMeta"></div>
-      <p class="modal-desc" id="modalDesc"></p>
-
-      <div class="modal-tags" id="modalTags"></div>
-
+      <div class="modal-meta"    id="modalMeta"></div>
+      <p   class="modal-desc"    id="modalDesc"></p>
+      <div class="modal-tags"    id="modalTags"></div>
       <div class="modal-gallery" id="modalGallery"></div>
-
       <div class="modal-actions" id="modalActions"></div>
     </div>
   </div>
