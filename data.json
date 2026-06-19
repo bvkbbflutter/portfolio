@@ -24,6 +24,104 @@
     },
     "projects": [
         {
+            "title": "KitchenOS",
+            "description": "A production-grade restaurant management system built with Flutter, Firebase, Riverpod, and Hive. KitchenOS helps restaurants manage orders, tables, kitchen operations, inventory, billing, customers, employees, and business analytics with an offline-first architecture powered by Hive and Firestore synchronization.",
+            "category": "flutter",
+            "image": "https://raw.githubusercontent.com/bvkbbflutter/my-images/refs/heads/main/assets/images/rms_app/rms1.png",
+            "gallery": [
+                "https://raw.githubusercontent.com/bvkbbflutter/my-images/refs/heads/main/assets/images/rms_app/rms1.png",
+                "https://raw.githubusercontent.com/bvkbbflutter/my-images/refs/heads/main/assets/images/rms_app/rms2.png",
+                "https://raw.githubusercontent.com/bvkbbflutter/my-images/refs/heads/main/assets/images/rms_app/rms.png",
+                "https://raw.githubusercontent.com/bvkbbflutter/my-images/refs/heads/main/assets/images/rms_app/rms_app.png"
+            ],
+            "links": [
+                {
+                    "type": "code",
+                    "url": "https://github.com/bvkbbflutter/kitchenos",
+                    "icon": "fab fa-github"
+                }
+            ],
+            "tags": [
+                "Flutter",
+                "Restaurant Management",
+                "POS System",
+                "Kitchen Display System",
+                "KDS",
+                "Order Management",
+                "Table Management",
+                "Billing System",
+                "Invoice Management",
+                "Inventory Management",
+                "Stock Management",
+                "Restaurant POS",
+                "Food Ordering",
+                "Offline First",
+                "Firebase",
+                "Cloud Firestore",
+                "Firebase Auth",
+                "Hive",
+                "Hive CE",
+                "Riverpod",
+                "Clean Architecture",
+                "GoRouter",
+                "Analytics Dashboard",
+                "Employee Management",
+                "Customer Management",
+                "Role Based Access",
+                "Business Reports",
+                "Sales Analytics",
+                "QR Ordering",
+                "Cross Platform",
+                "Mobile Development",
+                "Flutter Project"
+            ]
+        },
+        {
+            "title": "network_speed_plus",
+            "description": "A lightweight Flutter plugin for monitoring real-time upload and download network speed on Android and iOS. It provides total device traffic monitoring, app-specific traffic tracking, configurable update intervals, and an easy-to-use Flutter API for displaying network speed in applications.",
+            "category": "flutter",
+            "image": "https://raw.githubusercontent.com/bvkbbflutter/network_speed_plus/main/assets/network_speed_plus.png",
+            "gallery": [
+                "https://raw.githubusercontent.com/bvkbbflutter/network_speed_plus/main/assets/network_speed_plus.png"
+            ],
+            "links": [
+                {
+                    "type": "pub",
+                    "url": "https://pub.dev/packages/network_speed_plus",
+                    "icon": "fas fa-cube"
+                },
+                {
+                    "type": "code",
+                    "url": "https://github.com/bvkbbflutter/network_speed_plus",
+                    "icon": "fab fa-github"
+                }
+            ],
+            "tags": [
+                "Flutter",
+                "Dart",
+                "Pub.dev",
+                "Flutter Plugin",
+                "Network Speed",
+                "Internet Speed",
+                "Bandwidth Monitor",
+                "Traffic Monitor",
+                "Upload Speed",
+                "Download Speed",
+                "Real Time Monitoring",
+                "TrafficStats",
+                "Android",
+                "iOS",
+                "Cross Platform",
+                "Network Analytics",
+                "Performance Monitoring",
+                "ValueNotifier",
+                "Stream API",
+                "Mobile Development",
+                "Open Source",
+                "Flutter Package"
+            ]
+        },
+        {
             "title": "SplitNest",
             "description": "An offline-first expense sharing application built with Flutter that helps roommates, friends, travel groups, and teams track expenses, simplify debts, and settle balances fairly. SplitNest supports multiple split methods, automatic Firebase synchronization, debt simplification using the Min Cash Flow algorithm, invite-based group management, reports, settlements, and a seamless offline experience powered by Hive and Firestore.",
             "category": "flutter",
