@@ -24,6 +24,190 @@
     },
     "projects": [
         {
+            "title": "KitchenOS Admin Console",
+            "description": "KitchenOS is a production-grade restaurant management ecosystem consisting of a Flutter mobile application and a React.js Admin Console. Built with Flutter, React.js, Firebase, Firestore, Riverpod, Hive, and TypeScript, the platform enables restaurants to manage tables, orders, kitchen operations, inventory, billing, employees, customers, analytics, and multi-branch operations through a real-time, offline-first architecture. The system includes Kitchen Display System (KDS), role-based access control, advanced reporting, inventory tracking, invoice management, business analytics, and seamless synchronization between mobile and web platforms.",
+            "category": "fullstack",
+            "image": "https://github.com/bvkbbflutter/kitchenos_admin/blob/main/assets/images/kitchenos_admin.png?raw=true",
+            "gallery": [
+                "https://github.com/bvkbbflutter/kitchenos_admin/blob/main/assets/images/kitchenos_admin.png?raw=true"
+            ],
+            "links": [
+                {
+                    "type": "demo",
+                    "url": "https://6a37d3507c79e100081f899d--shiny-cannoli-53e96e.netlify.app",
+                    "icon": "fas fa-globe"
+                },
+                {
+                    "type": "code",
+                    "url": "https://github.com/bvkbbflutter/kitchenos_admin.git",
+                    "icon": "fab fa-github"
+                }
+            ],
+            "tags": [
+                "Flutter",
+                "React JS",
+                "TypeScript",
+                "Firebase",
+                "Cloud Firestore",
+                "Firebase Authentication",
+                "Hive",
+                "Hive CE",
+                "Riverpod",
+                "Clean Architecture",
+                "GoRouter",
+                "Restaurant Management",
+                "Restaurant ERP",
+                "POS System",
+                "Restaurant POS",
+                "Kitchen Display System",
+                "KDS",
+                "Order Management",
+                "Table Management",
+                "QR Ordering",
+                "Billing System",
+                "Invoice Management",
+                "Inventory Management",
+                "Stock Management",
+                "Customer Management",
+                "Employee Management",
+                "Role Based Access Control",
+                "RBAC",
+                "Reports Dashboard",
+                "Revenue Analytics",
+                "Business Intelligence",
+                "Sales Analytics",
+                "Multi Branch Management",
+                "Offline First",
+                "Realtime Sync",
+                "Netlify",
+                "Responsive Web App",
+                "Cross Platform",
+                "Mobile Development",
+                "Web Development",
+                "Full Stack Development"
+            ],
+            "highlights": [
+                "Production-grade restaurant management ecosystem",
+                "Flutter mobile application with offline-first architecture",
+                "React.js Admin Console for centralized restaurant operations",
+                "Real-time order synchronization across mobile and web",
+                "Kitchen Display System (KDS) for kitchen staff",
+                "Role-based authentication and authorization",
+                "Multi-restaurant and multi-branch support",
+                "Inventory and stock management with low-stock monitoring",
+                "Billing, invoicing, and payment collection workflows",
+                "Advanced reports with custom date-range filtering",
+                "Revenue analytics and business insights dashboard",
+                "Table management with real-time status tracking",
+                "Customer and employee management",
+                "Cloud-powered synchronization using Firestore",
+                "Netlify deployment with SPA routing support"
+            ],
+            "achievements": [
+                "Implemented offline-first architecture using Hive and Firestore synchronization",
+                "Developed complete restaurant workflow from order creation to payment collection",
+                "Built responsive React.js admin dashboard with analytics and reporting",
+                "Implemented real-time synchronization between Flutter POS and Admin Console",
+                "Resolved authentication race conditions affecting login workflows",
+                "Added advanced reporting with Today, Yesterday, Weekly, Monthly and Custom date filters",
+                "Optimized Firestore queries for multi-branch restaurant operations",
+                "Implemented automatic table release workflow after order completion",
+                "Fixed duplicate invoice generation and payment processing issues",
+                "Added SPA routing support eliminating page refresh 404 errors on Netlify",
+                "Improved dashboard reliability and Firestore query performance",
+                "Designed architecture ready for migration from Firebase to REST APIs"
+            ],
+            "modules": [
+                "Authentication",
+                "Dashboard",
+                "Table Management",
+                "Order Management",
+                "Kitchen Display System",
+                "Menu Management",
+                "Inventory Management",
+                "Billing & Payments",
+                "Customer Management",
+                "Employee Management",
+                "Reports & Analytics",
+                "Settings",
+                "Background Sync Engine"
+            ],
+            "techStack": {
+                "mobile": [
+                    "Flutter",
+                    "Riverpod",
+                    "Hive",
+                    "Firebase Auth",
+                    "Cloud Firestore",
+                    "GoRouter"
+                ],
+                "web": [
+                    "React JS",
+                    "TypeScript",
+                    "Vite",
+                    "Firebase",
+                    "Netlify"
+                ],
+                "backend": [
+                    "Firebase Authentication",
+                    "Cloud Firestore",
+                    "Firebase Security Rules"
+                ]
+            }
+        },
+        {
+            "title": "smart_auth_plus",
+            "description": "A Flutter plugin for Android that bridges Flutter and native Android APIs, providing seamless access to Google's authentication and verification services. Built with native Android integration and Google Play Services, smart_auth_plus simplifies OTP authentication by supporting SMS User Consent, SMS Retriever, Phone Number Hint, and App Signature generation through a clean, stream-based Dart API.",
+            "category": "flutter",
+            "image": "https://raw.githubusercontent.com/bvkbbflutter/smart_auth_plus/refs/heads/main/assets/images/smart_auth_plus.png",
+            "gallery": [
+                "https://raw.githubusercontent.com/bvkbbflutter/smart_auth_plus/refs/heads/main/assets/images/smart_auth_plus.png"
+            ],
+            "links": [
+                {
+                    "type": "code",
+                    "url": "https://github.com/bvkbbflutter/smart_auth_plus",
+                    "icon": "fab fa-github"
+                },
+                {
+                    "type": "external",
+                    "url": "https://pub.dev/packages/smart_auth_plus",
+                    "icon": "fas fa-cube"
+                }
+            ],
+            "tags": [
+                "Flutter",
+                "Flutter Plugin",
+                "Dart",
+                "Android",
+                "Native Android",
+                "Google Play Services",
+                "Authentication",
+                "OTP Verification",
+                "SMS User Consent",
+                "SMS Retriever",
+                "Phone Number Hint",
+                "App Signature",
+                "Google Identity",
+                "Mobile Development",
+                "Pub.dev",
+                "Open Source",
+                "Flutter Package",
+                "Plugin Development",
+                "Android Development",
+                "Stream API",
+                "Event Channel",
+                "Method Channel",
+                "Native Integration",
+                "SMS Authentication",
+                "Phone Verification",
+                "Security",
+                "Developer Tools",
+                "Cross Platform",
+                "Flutter Community"
+            ]
+        },
+        {
             "title": "KitchenOS",
             "description": "A production-grade restaurant management system built with Flutter, Firebase, Riverpod, and Hive. KitchenOS helps restaurants manage orders, tables, kitchen operations, inventory, billing, customers, employees, and business analytics with an offline-first architecture powered by Hive and Firestore synchronization.",
             "category": "flutter",
@@ -770,6 +954,10 @@
         {
             "name": "Flutter",
             "value": "flutter"
+        },
+        {
+            "name": "React",
+            "value": "react"
         },
         {
             "name": "Angular",
